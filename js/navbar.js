@@ -2,7 +2,7 @@
 (function () {
   function navbarHTML() {
     return `
-<header class="sticky top-0 z-50 bg-[#FBF7F5]/90 backdrop-blur-md border-b border-[#EAD9D2]">
+<header class="sticky top-0 z-50 bg-[#FBF7F5]/90 dark:bg-[#1c1718]/90 backdrop-blur-md border-b border-[#EAD9D2] dark:border-[#3a2f32]">
   <nav aria-label="Primary navigation" class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
     <div class="flex items-center justify-between h-[72px] gap-3">
       <a href="index.html" class="flex items-center gap-3 shrink-0" aria-label="Lumière PMU Studio home">
